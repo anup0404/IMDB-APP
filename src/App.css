@@ -1,0 +1,212 @@
+body{
+  background-color: #040304;
+  color:#FFF;
+}
+
+.homeBg{
+  background: url("https://cdn.discordapp.com/attachments/780837848030380112/929812133288493086/cover_image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.home{
+  display: flex;
+  top:12rem;
+  position: relative;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h1{
+  font-size: 3.125rem;
+  color: white;
+}
+.home input{
+  text-align: left;
+  font-size: 16pxc;
+  width:26%;
+  padding:10px 40px;
+  outline: none;
+}
+.home button{
+  background:#f40612;
+  font-size: 26px;
+  border: none;
+  padding: 8px 30px;
+  margin-top:8px;
+  border-radius: 4px;
+}
+.home button a{
+  text-decoration: none;
+  color: white;
+}
+.searchImg{
+  width:12rem;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+.searchTitle{
+  text-align: center;
+  font-size: 1rem;
+}
+.searchLink{
+  text-decoration: none;
+  color: white;
+}
+.movieCards{
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+}
+.movieCard{
+  border:2px solid black;
+  border-radius: 8px;
+  width: 20%;
+  margin:4px;
+}
+.coverImg{
+  width:auto;
+  height:80vh;
+  display: flex;
+  justify-content: center;
+}
+.movieBody{
+  min-height: 100vh;
+  position: relative;
+  bottom: 8rem;
+}
+
+.movieContainer{
+  width:80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.movieRating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: min-content;
+  /* margin:1rem; */
+}
+.movieRating img {
+  width: 302px;
+  height: auto;
+}
+.movieRating p {
+  color: #FFF;
+  font-size: 32px;
+}
+.movieRating p span {
+  font-size: 54px;
+}
+.movieDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: max-content;
+  padding-left: 2rem;
+position: relative;
+top: 8rem;
+}
+.MovieDescription h1 {
+  color: #FFF;
+  font-size: 48px;
+}
+.MovieDescription p {
+  color: #FFF;
+  font-size: 24px;
+}
+.cardImg{
+  width: 100%;
+  height: auto;
+}
+.cast{
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 5rem;
+  }
+  .castHeading{
+  
+  letter-spacing: 4px;
+  }
+  .castName{
+    margin-top: 4rem;
+  }
+  .castActors{
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  }
+  .castCircle{
+  max-width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  }
+  .castActorName{
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  }
+
+  .actorLink{
+    text-decoration: none;
+  }
+  .actorCircle{
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin: auto;
+    border-radius:50%;
+  }
+  .actorCircle img{
+    width: 100%;
+    height: auto;
+  }
+  .actorDetails h1{
+    text-align: center;
+  }
+  .actorDetails p{
+    margin: 0 20%;
+    letter-spacing: 1px;
+  }
+
+  .actorDetails h2{
+    text-align: center;
+    margin: 0 20%;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  .actorMovies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .actorCard{
+    width: 20%;
+    margin: 0 16px;
+  }
+
+  .actorCard img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+  }
+
+  .actorCard h3{
+    text-align: center;
+  }
