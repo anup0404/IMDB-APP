@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 function SearchResult() {
   const { movie } = useParams();
   const [data, setData] = useState();
-  const url = `https://imdb-api.com/en/API/Search/k_uy8055ru/${movie}`;
+  const url = `https://imdb-api.com/en/API/Search/k_66860jsi/${movie}`;
   useEffect(() => {
     async function fun1() {
       const result = await axios.get(url);
