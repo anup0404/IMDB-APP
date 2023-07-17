@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 function Actor() {
   const { actorId } = useParams();
   const [actorData, setActorData] = useState();
-  const url = `https://imdb-api.com/API/Name/k_66860jsi/${actorId}`;
+  const url = `https://imdb-api.com/API/Name/k_mzu0gv00/${actorId}`;
   useEffect(() => {
     async function fun() {
       const result = await axios(url);
