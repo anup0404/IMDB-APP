@@ -6,7 +6,7 @@ function Movie() {
   const { movieId } = useParams();
   const [idData, setIdData] = useState();
   const [trailer, setTrailer] = useState();
-  const url = `https://imdb-api.com/en/API/Title/k_66860jsi/${movieId}`;
+  const url = `https://imdb-api.com/en/API/Title/k_mzu0gv00/${movieId}`;
   useEffect(() => {
     async function fun2() {
       const result = await axios.get(url);
@@ -14,7 +14,7 @@ function Movie() {
     }
     fun2();
   }, [url]);
-  const url2 = `https://imdb-api.com/en/API/Trailer/k_66860jsi/${movieId}`;
+  const url2 = `https://imdb-api.com/en/API/Trailer/k_mzu0gv00/${movieId}`;
   useEffect(() => {
     async function fun2() {
       const result = await axios.get(url2);
